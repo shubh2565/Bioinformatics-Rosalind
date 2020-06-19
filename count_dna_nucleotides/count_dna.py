@@ -11,7 +11,7 @@ for i in range(len(dna)):
         count[1] += 1
     elif dna[i] is 'G':
         count[2] += 1
-    else:
+    elif dna[i] is 'T':
         count[3] += 1
 
 for n in count:
